@@ -1,19 +1,29 @@
-tap 'caskroom/cask'
+tap "caskroom/cask"
+tap "homebrew/bundle"
+tap "homebrew/core"
+tap "homebrew/services"
 
-brew 'git'
-brew 'openssh'
-brew 'fzf'
-brew 'zsh'
-brew 'heroku'
-brew 'ag'
-
-cask 'google-chrome'
-cask 'spotify'
-cask 'franz'
-cask 'flux'
-cask 'slack'
-cask 'iterm2'
-
-mas "1Password", id: 443987910
-mas "captured", id: 414675451
-mas "moom", id: 419330170
+brew "fzf"
+brew "git"
+brew "heroku"
+brew "mas"
+brew "openssh"
+brew "puma/puma/puma-dev"
+brew "the_silver_searcher"
+brew "zsh"
+cask "1password"
+cask "alfred"
+cask "atom"
+cask "dropbox"
+cask "firefox"
+cask "flux"
+cask "franz"
+cask "google-chrome"
+cask "gpg"
+cask "iterm2"
+cask "karabiner-elements"
+cask "keybase"
+cask "slack"
+cask "spotify"
+mas "Captured", id: 414675451
+mas "Moom", id: 419330170
